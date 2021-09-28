@@ -29,7 +29,7 @@ else if ( randomNumber1 < randomNumber2) {
 
 }
 else {
-  var loser =prompt("You both are loser.");
+  var loser =alert("You both are loser.");
 
     document.querySelector("h1").innerHTML = loser + "  🤣 👎" ;
 }
